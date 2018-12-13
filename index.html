@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form1 title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <form>
+        Name: ชื่อ-นามสกุล
+        <INPUT TYPE="text" NAME="name"value ="นาย" SIZE="15" required><BR>      
+        E-mail: ที่อยู่อีเมล์ของคุณ
+        <INPUT TYPE="text" NAME="email" SIZE="20" required><BR> 
+        Password: รหัสผ่านของคุณ
+        <INPUT TYPE="password" NAME="psw" SIZE="10" required><BR> <p>
+        คุณอายุเท่าใด:(เลือกเพียงข้อใดข้อหนึ่งเท่านั้น)<BR>
+        <INPUT TYPE="radio" NAME="age" VALUE="20-30">20-30 ปี  
+        <INPUT TYPE="radio" NAME="age" VALUE="31-40" CHECKED>31-40 ปี  
+        <INPUT TYPE="radio" NAME="age" VALUE="41-50" DISABLED >41-50ปี  
+        <br>
+        เพศ<br>
+        <INPUT TYPE="radio" NAME="sex" VALUE="ชาย">ชาย  
+        <INPUT TYPE="radio" NAME="sex" VALUE="หญิง">หญิง <br> <p>
+        กีฬาที่คุณชื่นชอบเป็นพิเศษ (เลือกได้มากกว่า 1 ข้อ)<BR>
+      <INPUT TYPE="checkbox" NAME="football"CHECKED>ฟุตบอล<BR>
+      <INPUT TYPE="checkbox" NAME="swim">ว่ายน้ำ<BR>
+      <INPUT TYPE="checkbox" NAME="boxer">มวย<BR> <p>
+        จังหวัดที่อยู่ <br>
+        <SELECT NAME="province" SIZE="1">
+         <OPTION VALUE="กรุงเทพมหานคร">กรุงเทพมหานคร</OPTION>
+         <OPTION VALUE="กระบี่">กระบี่</OPTION>
+         <OPTION VALUE="กาญจนบุรี" SELECTED>กาญจนบุรี</OPTION>
+         <OPTION VALUE="กาฬสินธ์">กาฬสินธ์</OPTION>
+        </SELECT> <BR> <p>
+        วันเดือนปีเกิด
+      <input type="date"name ="birddate" required><BR> <p>
+          กรุณาเลือกสี: 
+      <input type="color" id="field" /><BR> <p>
+
+        คำแนะนำ/เสนอแนะ/ติชม:<br>
+      <TEXTAREA NAME="comment" COLS="50" ROWS="5" WRAP="virtual">
+      </TEXTAREA> <P>
+        <INPUT TYPE="submit" VALUE="ส่งข้อมูล">
+        <INPUT TYPE="reset" VALUE="ลบพิมพ์ใหม่">
+    </form>
+    </body
+    
+</html>
